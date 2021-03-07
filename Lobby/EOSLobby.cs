@@ -379,6 +379,15 @@ public class EOSLobby : MonoBehaviour
     }
 
     /// <summary>
+    /// Update an attribute with a raw AttributeData value.
+    /// </summary>
+    /// <param name="data">The key value attribute to set.</param>
+    public void UpdateLobbyAttribute(AttributeData data)
+    {
+        UpdateAttribute(data);
+    }
+
+    /// <summary>
     /// Update a boolean attribute.
     /// </summary>
     /// <param name="key">The key of the attribute.</param>
