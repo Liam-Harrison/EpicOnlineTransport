@@ -135,8 +135,9 @@ namespace EpicTransport {
         protected static EOSSDKComponent instance;
         protected static EOSSDKComponent Instance {
             get {
-                if (instance == null) {
-                    return new GameObject("EOSSDKComponent").AddComponent<EOSSDKComponent>();
+                if (instance == null)
+                {
+                    return FindObjectOfType<EOSSDKComponent>() ?? new GameObject("EOSSDKComponent").AddComponent<EOSSDKComponent>();
                 } else {
                     return instance;
                 }
