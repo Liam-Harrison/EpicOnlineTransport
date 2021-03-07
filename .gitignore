@@ -58,3 +58,22 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+BidirectionalDictionary.cs.meta
+Client.cs.meta
+Common.cs.meta
+DevAuthTool.meta
+DevAuthTool/EOS_DevAuthTool-darwin-x64-1.0.1.zip.meta
+DevAuthTool/EOS_DevAuthTool-win32-x64-1.0.1.zip.meta
+DevAuthTool/README.txt.meta
+EOSSDK.meta
+EOSSDKComponent.cs.meta
+EosTransport.cs.meta
+LICENSE.meta
+Lobby.meta
+Lobby/EOSLobby.cs.meta
+Lobby/EOSLobbyUI.cs.meta
+Logger.cs.meta
+RandomString.cs.meta
+README.md.meta
+Server.cs.meta
+VERSION.txt.meta
